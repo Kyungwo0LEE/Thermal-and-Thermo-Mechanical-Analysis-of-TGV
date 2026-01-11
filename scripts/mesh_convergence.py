@@ -53,5 +53,6 @@ plt.xlabel("Mesh size (h)")
 plt.ylabel("Relative change (%)")
 plt.title("Relative Change Between Mesh Refinements")
 plt.grid(True)
-plt.savefig("mesh_convergence_reltative_change.png",dpi=300,bbox_inches="tight")
+plt.savefig("mesh_convergence_relative_change.png",dpi=300,bbox_inches="tight")
 plt.show()
+
