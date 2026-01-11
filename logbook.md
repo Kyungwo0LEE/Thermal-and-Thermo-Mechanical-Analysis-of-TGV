@@ -1,9 +1,11 @@
 #week 1
+
 ##what I did
 -Training with the program Ansys
 -Get 3D Geometry using Inventor
 
 #week 2
+
 ##what I did
 -How to set the mesh
 -It takes a long time.
