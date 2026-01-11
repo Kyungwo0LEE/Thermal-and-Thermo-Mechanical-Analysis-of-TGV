@@ -34,6 +34,7 @@ The objectives of this study are:
 ## Tools & Environment
 - ANSYS Workbench / Mechanical
 - ANSYS SpaceClaim
+- Inventor
 - Python (post-processing and data visualization)
 
 ## Project Scope
