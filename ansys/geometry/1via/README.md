@@ -1,4 +1,4 @@
-## Geometry
+## Geometry 1via
 
 The geometry consists of a single copper through-glass via (TGV) embedded in a glass substrate.
 
