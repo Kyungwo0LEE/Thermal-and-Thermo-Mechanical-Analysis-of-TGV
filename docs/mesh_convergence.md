@@ -10,6 +10,7 @@ The following figure illustrates the variation of the maximum temperature with r
 ![Mesh convergence (Tmax)](../figures/mesh_convergence/mesh_convergence.png)
 
 **Figure 1.** 
+
 Maximum temperature as a function of mesh size.
 As the mesh is refined, the maximum temperature approaches an asymptotic value, indicating convergence toward a mesh-independent solution.
 
