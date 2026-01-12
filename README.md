@@ -65,6 +65,14 @@ redundant TGV configurations on thermal performance and structural stability.
 - Design guidelines for determining an upper bound on the number of
   vias per pad considering both thermal and structural constraints
 
+## Reproducibility
+
+Mesh convergence analysis was performed using Python scripts
+located in `python/mesh_convergence`.
+The resulting numerical data were automatically generated
+and stored as CSV files in `data/mesh_convergence`.
+
+
 ## Author
 Kyungwoo Lee  
 Undergraduate Student, Mechanical Engineering
