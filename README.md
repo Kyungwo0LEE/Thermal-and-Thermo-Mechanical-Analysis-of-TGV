@@ -78,6 +78,8 @@ redundant TGV configurations on thermal performance and structural stability.
 Mesh convergence analysis was performed using Python scripts located in `python/mesh_convergence`.
 The analysis includes nonlinear regression of the maximum temperature to verify mesh independence.
 
+The convergence results were subsequently used to guide the final mesh refinement and transition settings applied in ANSYS simulations.
+
 The resulting numerical data and regression parameters are automatically generated and stored as CSV files in `data/mesh_convergence`,
 ensuring reproducibility of the results.
 
