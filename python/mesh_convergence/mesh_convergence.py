@@ -20,7 +20,7 @@ df = pd.DataFrame({
 })
 
 print(df)
-
+df.to_csv("mesh_vs_Tmax.csv", index=False)
 
 
 relative_change = np.abs(np.diff(Tmax)) / Tmax[1:]
@@ -55,3 +55,4 @@ plt.title("Relative Change Between Mesh Refinements")
 plt.grid(True)
 plt.savefig("mesh_convergence_relative_change.png",dpi=300,bbox_inches="tight")
 plt.show()
+
