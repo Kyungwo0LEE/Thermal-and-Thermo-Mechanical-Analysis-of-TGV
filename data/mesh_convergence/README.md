@@ -9,15 +9,14 @@ This directory contains numerical data used for the mesh convergence study of th
   This file includes:
   - element size (m)
   - maximum temperature obtained from ANSYS simulations
-  - fitted maximum temperature predicted by the regression model
 
 - `mesh_convergence_params.csv`  
   Parameters obtained from the nonlinear regression analysis, including:
-  - estimated converged maximum temperature
-  - regression coefficients
-  - reference converged temperature based on the finest mesh result
+  - extrapolated converged maximum temperature \( T_\infty \)
+  - regression coefficients of the convergence model
 
 ## Notes
 
-Preliminary datasets generated during early mesh studies have been moved to
-the `archive/` directory and are retained for reference and reproducibility.
+Preliminary datasets generated during early mesh studies have been moved to the `archive/` directory and are retained for reference and reproducibility.
+
+The extrapolated converged temperature provides a mesh-independent reference value obtained by regression-based extrapolation to vanishing element size.
