@@ -144,6 +144,7 @@ Final mesh density was selected based on stress convergence stability rather tha
 - Identical boundary conditions used for all via counts
 
 This ensures that performance differences arise solely from redundancy density variations.
+
 ---
 
 ## Material Consideration
