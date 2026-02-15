@@ -73,13 +73,13 @@ This confirms that thermo-mechanical stress is directly driven by thermal expans
 
 Low heat (334 GW/m³):
 
-![](../figures/phase2_thermal_sweep/334_temp.png)
-![](../figures/phase2_thermal_sweep/334_stress.png)
+![](../figures/phase2_thermal_sweep/334_temperature.png)
+![](../figures/phase2_thermal_sweep/334_p_stress.png)
 
 High heat (430 GW/m³):
 
-![](../figures/phase2_thermal_sweep/430_temp.png)
-![](../figures/phase2_thermal_sweep/430_stress.png)
+![](../figures/phase2_thermal_sweep/430_temperature.png)
+![](../figures/phase2_thermal_sweep/430_p_stress.png)
 
 These representative cases illustrate the spatial amplification of tensile stress as thermal loading increases.
 
