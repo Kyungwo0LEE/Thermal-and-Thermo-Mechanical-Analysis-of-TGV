@@ -287,3 +287,49 @@ As via density increases:
 This behavior indicates that excessive redundancy within a confined footprint may degrade structural reliability despite initial improvements in heat distribution.
 
 Therefore, optimal via redundancy must consider density-driven thermal bottleneck effects rather than simply increasing the number of vias.
+
+---
+
+## 11. Fracture Safety Evaluation
+
+To assess crack initiation risk, a linear elastic fracture mechanics (LEFM) approach was adopted.
+
+Assumptions:
+
+- Surface crack
+- Crack size: a = 10 μm
+- Geometry factor: Y = 1.12
+- Mode I fracture
+
+Stress intensity factor:
+
+K_I = Y σ √(π a)
+
+The critical principal stress preventing crack propagation is:
+
+σ_crit = K_IC / (Y √(π a))
+
+Using reported fracture toughness values for glass,
+the estimated critical stress range is:
+
+σ_crit ≈ 119.5 – 143.4 MPa
+
+---
+
+### Safety Comparison
+
+Maximum principal stress obtained in this study:
+
+| Via Count | Max σ₁ (MPa) |
+|------------|--------------|
+| 1 | 19.5 |
+| 2 | 16.4 |
+| 3 | 22.9 |
+| 4 | 35.6 |
+| 5 | 44.9 |
+
+All cases remain below the estimated fracture threshold.
+
+However, excessive redundancy (N ≥ 4) reduces fracture safety margin significantly.
+
+The dual-via configuration provides the largest structural safety margin under confined thermal loading.
