@@ -37,6 +37,16 @@ All other parameters remain unchanged to isolate the effect of thermal loading.
 
 ---
 
+### Trend Visualization
+
+![](../figures/phase2_trend/q_vs_principal_stress_with_fracture_limit.png)
+
+![](../figures/phase2_trend/q_vs_temperature_regression.png)
+
+The results show a strong linear relationship between volumetric heat generation and both temperature rise and principal stress.
+
+---
+
 ## 4. Observed Trend
 
 ### Temperature Response
@@ -56,6 +66,22 @@ Maximum principal stress also increases almost linearly with heat generation.
 Each 16 GW/m³ increment results in ~4.9–5 MPa increase in σ₁.
 
 This confirms that thermo-mechanical stress is directly driven by thermal expansion mismatch.
+
+---
+
+### Representative Contours
+
+Low heat (334 GW/m³):
+
+![](../figures/phase2_thermal_sweep/334_temp.png)
+![](../figures/phase2_thermal_sweep/334_stress.png)
+
+High heat (430 GW/m³):
+
+![](../figures/phase2_thermal_sweep/430_temp.png)
+![](../figures/phase2_thermal_sweep/430_stress.png)
+
+These representative cases illustrate the spatial amplification of tensile stress as thermal loading increases.
 
 ---
 
